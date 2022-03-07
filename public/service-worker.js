@@ -2,15 +2,15 @@ const APP_PREFIX = 'budget-tracker';
 const VERSION = 'version_01';
 const CACHE_NAME = APP_PREFIX + VERSION
 const FILES_TO_CACHE = [
-  "/",
-  "manifest.webmanifest",
-  "index.html",
-  "assets/css/styles.css",
-  "assets/js/index.js",
-  "https://cdn.jsdelivr.net/npm/chart.js@2.8.0",
-  "assets/js/db.js",
-  "assets/img/icons/icon-192x192.png",
-  "assets/img/icons/icon-512x512.png",
+
+  "../public/manifest.webmanifest",
+  "../public/index.html",
+  "../public/assets/css/styles.css",
+  "../public/assets/js/index.js",
+ 
+  "../public/assets/js/idb.js",
+  "../public/assets/img/icons/icon-192x192.png",
+  "../public/assets/img/icons/icon-512x512.png",
 ];
 
 // Respond with cached resources
